@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "PT Mono", monospace;
+    background: #e0eef0;
+    color: #5a7d83;
+}
+
+.container{
+    border-radius: 10px;
+    background: #bfd6d9;
+    max-width: 500px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form form button{
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #739399;
+    border: none;
+}
+
+.form form input{
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #e0eef0;
+    border: none;
+}
+
+.form form label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.separator{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 2px;
+    height: 2px;
+    background: #99c5cc;
+}
+
+.task{
+    margin-left: 2px;
+    margin-bottom: 25px;
+}
+
+.task ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: #a9c3c7;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 10px;
+
+    justify-content: left;
+    align-items: center;
+}
+
+.task ul li:hover{
+    background: #9bb7bb;
+}
+
+.rmvBtn{
+    background: #739399;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #5a7d83;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.details{
+    width: 300px;
+    border-radius: 4px;
+    margin-right: 4px;
+    padding: 50px;  
+
+}
+
+.details dl dt{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.details dl dd{
+    margin-top: 4px;
+    margin-bottom: 12px; 
+}
